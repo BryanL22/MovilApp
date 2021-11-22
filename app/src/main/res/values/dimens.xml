@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardCornerRadius">5dp</dimen>
+    <dimen name="cardElevation">5dp</dimen>
+    <dimen name="cardLayoutMargin">5dp</dimen>
+    <dimen name="itemCommentsUser">25sp</dimen>
+    <dimen name="itemCommentsScore">25sp</dimen>
+    <dimen name="defaultLayoutMargin">20dp</dimen>
+    <dimen name="itemCommentsComment">25sp</dimen>
+    <dimen name="sizeNameProduct">25sp</dimen>
+    <dimen name="heightImageProduct">200dp</dimen>
+    <dimen name="ibHeight">60dp</dimen>
+</resources>
