@@ -10,4 +10,6 @@
     <dimen name="fotoTiendaHeight">350dp</dimen>
     <dimen name="textSizeTitle">50dp</dimen>
     <dimen name="textSubTitle">37dp</dimen>
+    <dimen name="sizeNameProduct">30dp</dimen>
+
 </resources>
