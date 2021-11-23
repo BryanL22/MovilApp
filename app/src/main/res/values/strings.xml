@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SofiaReal</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textHome">App para la venta de Cafe de la empresa Sofia Real, quien ofrece diferentes tipos y variedades de cafe Colombiano</string>
+</resources>
