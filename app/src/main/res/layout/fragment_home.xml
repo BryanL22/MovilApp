@@ -1,43 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><!DOCTYPE FrameLayout [<!ELEMENT FrameLayout (ScrollView)*><!ATTLIST FrameLayoutxmlns:android CDATA #REQUIREDxmlns:tools CDATA #REQUIREDandroid:layout_width CDATA #REQUIREDandroid:layout_height CDATA #REQUIREDtools:context CDATA #REQUIRED><!ELEMENT ScrollView (LinearLayout)*><!ATTLIST ScrollViewandroid:layout_width CDATA #REQUIREDandroid:layout_height CDATA #REQUIRED><!ELEMENT LinearLayout (androidx.cardview.widget.CardView)*><!ATTLIST LinearLayoutandroid:layout_width CDATA #REQUIREDandroid:layout_height CDATA #REQUIREDandroid:orientation CDATA #REQUIRED><!ELEMENT androidx.cardview.widget.CardView (#PCDATA)><!ATTLIST androidx.cardview.widget.CardViewandroid:layout_width CDATA #REQUIREDandroid:layout_height CDATA #REQUIREDapp:cardCornerRadius CDATA #REQUIRED>]>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".view.ui.fragments.HomeFragment">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titleHome"
+        android:textAlignment="center"
+        android:textColor="@color/gold"
+        android:textSize="@dimen/textSizeTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="30dp" />
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:cardCornerRadius="@dimen/cardCornerRadius"
-                app:cardElevation=@dimen/cardElevation"
-                android:layout_margin="@dimen/cardLayoutMargin">
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:text="Café Sofía Real"
+        android:textAlignment="center"
+        android:textColor="@color/primaryColor"
+        android:textSize="@dimen/textSubTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="97dp" />
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/androidlaunchericon144144"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="161dp" />
 
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="@dimen/cardview_default_radius"
-                        android:layout_margin="@dimen/defaultLayoutMargin"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/androidlaunchericon7272" />
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="362dp"
+        android:layout_height="381dp"
+        android:src="@drawable/imagenn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="324dp" />
 
-                </LinearLayout>
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Un café de los de verdad"
+        android:textColor="@color/primaryColor"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="324dp" />
 
-            </androidx.cardview.widget.CardView>
-        </LinearLayout>
 
-    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
 
-</FrameLayout>

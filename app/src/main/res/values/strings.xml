@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">SofiaReal</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment">" "</string>
+    <string name="textHome">¡Oh libertad que perfuma las montañas de mi tierra!  Manos que trabajan, que acarician, que transforman
+    Empeño de mujer, homenaje a la vida,
+    Amor a la tierra, una Antioquia que canta,
+    un café que se disfruta sorbo a sorbo,
+    un aroma que smplemente... encanta </string>
+    <string name="titleHome">"Bienvenido!"</string>
 </resources>

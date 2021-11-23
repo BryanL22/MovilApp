@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardCornerRadius">5dp</dimen>
+    <dimen name="textSizeContent">20sp</dimen>
+    <dimen name="cardElevation">15sp</dimen>
+    <dimen name="cardLayoutMargin">10dp</dimen>
+    <dimen name="logoHeight">100dp</dimen>
+    <dimen name="defaultLayoutMargin">20dp</dimen>
+    <dimen name="defaultLeftMargin">65</dimen>
+    <dimen name="fotoTiendaHeight">350dp</dimen>
+    <dimen name="textSizeTitle">50dp</dimen>
+    <dimen name="textSubTitle">37dp</dimen>
+</resources>
