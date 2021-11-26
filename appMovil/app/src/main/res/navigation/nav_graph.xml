@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph">
+
+    <dialog
+        android:id="@+id/orderDetailFragmentDialog"
+        android:name="com.misiontic2022.cafesofiarealapp.view.ui.fragments.OrderDetailDialogFragment"
+        android:label="OrderDetailFragmentDialog"
+        tools:layout="@layout/fragment_order_detail_dialog"/>
+
+    <dialog
+        android:id="@+id/commentsDetailFragmentDialog"
+        android:name="com.misiontic2022.cafesofiarealapp.view.ui.fragments.CommentsDetailDialogFragment"
+        android:label="CommentsDetailFragmentDialog"
+        tools:layout="@layout/fragment_comments_detail_dialog"/>
+
+    <dialog
+        android:id="@+id/adminDetailFragmentDialog"
+        android:name="com.misiontic2022.cafesofiarealapp.view.ui.fragments.AdminDetailDialogFragment"
+        android:label="AdminDetailFragmentDialog"
+        tools:layout="@layout/fragment_admin_detail_dialog"/>
+
+</navigation>
