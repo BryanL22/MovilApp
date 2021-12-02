@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".vieww.ui.activities.ConfiguracionActivity">
+
+    <ImageButton
+        android:id="@+id/ibotonversion"
+        android:layout_width="65dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="340dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/textView14"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView9"
+        app:srcCompat="@drawable/android48" />
+
+    <ImageButton
+        android:id="@+id/ibotoninformacion"
+        android:layout_width="65dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="256dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/textView14"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView9"
+        app:srcCompat="@drawable/info48" />
+
+    <ImageButton
+        android:id="@+id/ibotoncomentarios"
+        android:layout_width="65dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="176dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/textView14"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView9"
+        app:srcCompat="@drawable/comentario48png" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="196dp"
+        android:layout_marginRight="196dp"
+        android:fontFamily="@font/lato_bold_italic"
+        android:text="Version App"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="196dp"
+        android:layout_marginRight="196dp"
+        android:fontFamily="@font/lato_bold_italic"
+        android:text="Información"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="232dp"
+        android:layout_marginRight="232dp"
+        android:fontFamily="@font/lato_bold_italic"
+        android:text="Mi Perfíl"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginBottom="62dp"
+        android:fontFamily="@font/lato_bold_italic"
+        android:text="Configuración"
+        android:textColor="@color/primaryColor"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="192dp"
+        android:layout_marginRight="192dp"
+        android:fontFamily="@font/lato_bold_italic"
+        android:text="Comentarios"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <Button
+        android:id="@+id/botoncerrar"
+        android:layout_width="248dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="280dp"
+        android:background="@color/primaryDarkColor"
+        android:fontFamily="@font/lato_bold_italic"
+        android:text="Cerrar Sesión"
+        android:textColor="@color/ic_launcher_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/ibotonusuario"
+        android:layout_width="65dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="96dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/textView14"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView9"
+        app:srcCompat="@drawable/iconousuario48cafe" />
+
+    <ImageButton
+        android:id="@+id/volverboton"
+        android:layout_width="58dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="257dp"
+        android:background="@color/primaryDarkColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/botoncerrar"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryColor"
+    tools:context=".vieww.ui.fragments.AdminFragment">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/defaultLayoutMargin"
+                app:cardCornerRadius="@dimen/cardElevation"
+                app:cardElevation="@dimen/cardElevation">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/primaryLightColor"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:background="@color/primaryDarkColor"
+                        android:fontFamily="@font/lato_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="Mi perfil"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="34sp" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/heightImageProduct"
+                        android:layout_margin="@dimen/defaultLayoutMargin"
+                        android:src="@drawable/iconousuario" />
+
+                    <TextView
+                        android:id="@+id/txtNombre"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/lato_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="Nombre"
+                        android:textColor="@color/primaryTextColor"
+                        android:textSize="@dimen/sizeNameProduct" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/lato_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="Direccion"
+                        android:textColor="@color/primaryTextColor"
+                        android:textSize="@dimen/sizeNameProduct" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/lato_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="Telefono"
+                        android:textColor="@color/primaryTextColor"
+                        android:textSize="@dimen/sizeNameProduct" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/lato_bold_italic"
+                        android:gravity="center_horizontal"
+                        android:text="Correo"
+                        android:textColor="@color/primaryTextColor"
+                        android:textSize="@dimen/sizeNameProduct" />
+
+                    <Button
+                        android:id="@+id/editarboton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/primaryDarkColor"
+                        android:text="editar perfíl" />
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <ImageButton
+                android:id="@+id/vhome"
+                android:layout_width="76dp"
+                android:layout_height="82dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="200dp"
+                android:background="@color/primaryDarkColor"
+                app:srcCompat="@drawable/ic_outline_home_24"
+                tools:ignore="VectorDrawableCompat" />
+
+            <ImageButton
+                android:id="@+id/vbotonperfil"
+                android:layout_width="76dp"
+                android:layout_height="83dp"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="-81dp"
+                android:background="@color/primaryDarkColor"
+                app:srcCompat="@android:drawable/ic_menu_revert" />
+
+        </LinearLayout>
+
+
+</FrameLayout>

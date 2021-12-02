@@ -29,6 +29,15 @@
                             <option name="y" value="71" />
                           </Point>
                         </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="action_adminFragment_to_adminDetailFragmentDialog">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
+                        </option>
                       </LayoutPositions>
                     </value>
                   </entry>
@@ -37,13 +46,18 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="77" />
-                            <option name="y" value="80" />
+                            <option name="x" value="110" />
+                            <option name="y" value="202" />
                           </Point>
                         </option>
                         <option name="myPositions">
                           <map>
                             <entry key="action_comentsFragment_to_adminFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_comentsFragment_to_commentsDetailFragmentDialog">
                               <value>
                                 <LayoutPositions />
                               </value>
@@ -65,23 +79,14 @@
                       </LayoutPositions>
                     </value>
                   </entry>
-                  <entry key="homeFragment">
+                  <entry key="homeActivity">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="-365" />
-                            <option name="y" value="-51" />
+                            <option name="x" value="-421" />
+                            <option name="y" value="-80" />
                           </Point>
-                        </option>
-                        <option name="myPositions">
-                          <map>
-                            <entry key="action_homeFragment_to_orderFragment">
-                              <value>
-                                <LayoutPositions />
-                              </value>
-                            </entry>
-                          </map>
                         </option>
                       </LayoutPositions>
                     </value>
@@ -103,13 +108,28 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="-145" />
-                            <option name="y" value="10" />
+                            <option name="x" value="-174" />
+                            <option name="y" value="-37" />
                           </Point>
                         </option>
                         <option name="myPositions">
                           <map>
                             <entry key="action_orderFragment_to_comentsFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_orderFragment_to_orderDetailFragmentDialog">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_orderFragment_to_orderDetailFragmentDialog2">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_orderFragment_to_orderDetailFragmentDialog3">
                               <value>
                                 <LayoutPositions />
                               </value>

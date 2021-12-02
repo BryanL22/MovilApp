@@ -9,8 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-
-        <activity android:name=".vieww.ui.activities.MainActivity"></activity>
+        <activity android:name=".InterfazComentariosActivity"></activity>
+        <activity android:name=".vieww.ui.activities.ComentariosActivity" />
+        <activity android:name=".vieww.ui.activities.Producto4Activity" />
+        <activity android:name=".vieww.ui.activities.Producto3Activity" />
+        <activity android:name=".vieww.ui.activities.Producto2Activity" />
+        <activity android:name=".vieww.ui.activities.Producto1Activity" />
+        <activity android:name=".vieww.ui.activities.EditarPerfilActivity" />
+        <activity android:name=".vieww.ui.activities.Pedidos2Activity" />
+        <activity android:name=".vieww.ui.activities.PedidosActivity" />
+        <activity android:name=".vieww.ui.activities.RegistroActivity" />
+        <activity android:name=".vieww.ui.activities.LoginActivity" />
+        <activity android:name=".vieww.ui.activities.InformacionActivity" />
+        <activity android:name=".vieww.ui.activities.PerfilActivity" />
+        <activity android:name=".vieww.ui.activities.HomeActivity" />
+        <activity android:name=".vieww.ui.activities.ConfiguracionActivity" />
+        <activity android:name=".vieww.ui.activities.MainActivity" />
         <activity android:name=".vieww.ui.activities.SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,10 +33,12 @@
             </intent-filter>
         </activity>
 
-
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDXcmE42eOSv0bqDEm6ZfOh9eFe3snPAXw" />
     </application>
 
 </manifest>

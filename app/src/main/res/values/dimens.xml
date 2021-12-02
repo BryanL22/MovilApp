@@ -10,4 +10,5 @@
     <dimen name="sizeNameProduct">25sp</dimen>
     <dimen name="heightImageProduct">200dp</dimen>
     <dimen name="ibHeight">60dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
 </resources>

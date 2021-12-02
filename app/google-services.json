@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "613301269796",
+    "project_id": "cafe-sofiareal",
+    "storage_bucket": "cafe-sofiareal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613301269796:android:08a57f270cc24bc78eefb1",
+        "android_client_info": {
+          "package_name": "com.example.cafesofiareal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "613301269796-td2kpf4f0ghnv0vs7eajkti6j1i6bmds.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cafesofiareal",
+            "certificate_hash": "2c4c8254b7ee3e15227eda991b831856b12b705a"
+          }
+        },
+        {
+          "client_id": "613301269796-27ahsrqv7a41i6rnofb7013qnj60p512.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSaa-1rQvB0OVHdGlxrDOuA1w7Z6bqsH8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "613301269796-27ahsrqv7a41i6rnofb7013qnj60p512.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
